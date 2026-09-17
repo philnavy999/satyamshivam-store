@@ -5,6 +5,15 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Satyam Shivam event photography, birthday films, drone coverage and albums across India. Get 10% off your first booking.">
 <meta name="theme-color" content="#2345d8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18455553984"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18455553984');
+</script>
 <title>Satyam Shivam — Your moments, beautifully kept.</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -27,5 +36,16 @@
 <section class="faq wrap" id="questions"><h2>A few things<br><em>you might ask.</em></h2><div><details><summary>Do you travel anywhere in India?</summary><p>Yes, we take bookings across India. Share your city and venue so we can confirm availability and any travel arrangements in your quote.</p></details><details><summary>What can I include in my booking?</summary><p>Event photography, birthday coverage, videos, drone coverage, album design and video editing. We'll build the package around your event.</p></details><details><summary>When will I receive my photos and films?</summary><p>We focus on quick delivery. The exact schedule depends on your package and is agreed with you before you book.</p></details><details><summary>How do I get the 10% first-booking offer?</summary><p>Message us on WhatsApp and mention that it's your first booking. We'll confirm the offer and final package price with you.</p></details></div></section>
 <section class="final-cta"><div class="wrap"><h2>Make the memories.<br><em>We'll make them last.</em></h2><p>Your first booking comes with <strong>10% off.</strong></p><a class="button cream" href="https://wa.link/satyamlive1"><svg><use href="#wa"></use></svg> Let's talk about your event <svg><use href="#arrow"></use></svg></a><div class="cta-foot">Photography · Films · Drone · Albums<br>Available across India</div></div></section>
 </main><footer class="wrap"><a class="brand" href="#">Satyam Shivam</a><p>Made for the moments that matter.</p><small>Preview imagery is representative, not a client portfolio.</small></footer><a class="mobile-book" href="https://wa.link/satyamlive1"><svg><use href="#wa"></use></svg> Book on WhatsApp <span>10% off first booking</span></a>
+<script>
+document.querySelectorAll('a[href*="wa.link"]').forEach(function(link){
+  link.addEventListener('click', function(){
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18455553984/30fOCP3Y9PocEMDPpeBE',
+      'value': 1.0,
+      'currency': 'INR'
+    });
+  });
+});
+</script>
 </body>
 </html>
